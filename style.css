@@ -1,17 +1,32 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'FramnaSerif';
+    src: url('https://framna.com/hubfs/FramnaSerif-Medium.ttf') format('truetype');
+    font-weight: 500; 
+    font-style: normal; 
+}
+@font-face {
+    font-family: 'FramnaSerifBody';
+    src: url('https://framna.com/hubfs/FramnaSansBETA08-Regular.ttf') format('truetype');
+    font-weight: 400; 
+    font-style: normal; 
+}
 
 body {
-    font-family: Poppins, sans-serif;
+    font-family:FramnaSerifBody, Poppins, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #333;
+    background-color: #f1f1f1;
     color: #fff;
     padding: 10px;
     text-align: center;
+}
+header img{
+    height: 80px;
 }
 
 .content {
@@ -190,7 +205,7 @@ header {
 }
 
 .post h2{
-    font-weight: 500;
+    font-weight: 700;
 }
 .post p{
     font-weight: 300;
@@ -214,4 +229,21 @@ header {
     text-decoration: none;
     font-weight: 300;
     font-size: 14px;
+}
+.toggle-wrapper-header {
+    display: flex;
+    justify-content: space-between;
+}
+/* @media (max-width: 768px) {
+    .toggle-wrapper-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+} */
+.entry-header h1{
+    font-size: 80px;
+    font-size: clamp(40px, 5vw + 20px, 80px);
+    margin: 0;
+    font-family: 'FramnaSerif', 'Poppins', serif;
 }
