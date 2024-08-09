@@ -218,12 +218,12 @@ header img{
 .tags-category-wrapper{
     display: flex;
     gap: 10px;
-   
+    flex-wrap: wrap;
 }
 .tags-pills{
     display: flex;
     gap: 10px;
-   
+    flex-wrap: wrap;
 }
 .category-pill-body, .tag-pill-body{
     padding: 8px 16px;
