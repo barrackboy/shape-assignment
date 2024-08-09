@@ -1,4 +1,4 @@
-// Fetch the JSON data
+// Script to fetch JSON data and rendering
 fetch('data.json')
     .then(response => response.json())
     .then(data => {
@@ -26,10 +26,10 @@ function populatePillButtons(blog) {
     const categoryOptions = document.getElementById('category-options');
     const topicOptions = document.getElementById('topic-options');
 
-    // Add "All Categories" option
+    // Add "All Formats" option
     const allCategoriesPill = document.createElement('div');
-    allCategoriesPill.className = 'pill selected'; // Pre-select "All Categories" by default
-    allCategoriesPill.textContent = 'All Categories';
+    allCategoriesPill.className = 'pill selected'; // Pre-select "All Formats" by default
+    allCategoriesPill.textContent = 'All Formats';
     allCategoriesPill.addEventListener('click', () => selectFilter('category', '', blog));
     categoryOptions.appendChild(allCategoriesPill);
 
@@ -81,7 +81,7 @@ function setupToggleEventListeners(blog) {
             element.style.opacity = '0';
             setTimeout(() => {
                 element.style.display = 'none';
-            }, 500); // Match this with the transition duration
+            }, 500); //delay time span
         }
     }
 
@@ -97,7 +97,7 @@ function setupToggleEventListeners(blog) {
             topicOptions.style.opacity = '0';
             setTimeout(() => {
                 topicOptions.style.display = 'none';
-            }, 500); // Match this with the transition duration
+            }, 500); //delay time span
             chevron.classList.add('rotate');
             toggleCategories.classList.add('open-button');
             toggleTopics.querySelector('.chevron').classList.remove('rotate');
@@ -117,7 +117,7 @@ function setupToggleEventListeners(blog) {
             categoryOptions.style.opacity = '0';
             setTimeout(() => {
                 categoryOptions.style.display = 'none';
-            }, 500); // Match this with the transition duration
+            }, 500); //delay time span
             chevron.classList.add('rotate');
             toggleTopics.classList.add('open-button');
             toggleCategories.querySelector('.chevron').classList.remove('rotate');
