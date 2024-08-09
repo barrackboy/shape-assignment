@@ -1,0 +1,130 @@
+{
+    "blog": {
+        "title": "Tech Insights",
+        "url": "https://www.framna.com",
+        "description": "A blog about the latest in technology and innovation.",
+        "posts": [
+            {
+                "id": 1,
+                "title": "The Future of Artificial Intelligence",
+                "author_id": 1,
+                "date": "2024-08-01",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "categories": ["Blog Post"],
+                "tags": ["Strategy", "People"],
+                "image_url": "https://images.pexels.com/photos/27457297/pexels-photo-27457297/free-photo-of-woman-standing-in-dress-with-flowers.jpeg"
+            },
+            {
+                "id": 2,
+                "title": "Understanding Quantum Computing",
+                "author_id": 2,
+                "date": "2024-07-20",
+                "content": "Quantum computing is set to revolutionize the world. Here's what you need to know.",
+                "categories": ["White Paper"],
+                "tags": ["VR", "AR"],
+                "image_url": "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg"
+            },
+            {
+                "id": 3,
+                "title": "Exploring Mobile App Trends",
+                "author_id": 1,
+                "date": "2024-06-15",
+                "content": "A deep dive into the latest mobile app trends shaping the tech landscape.",
+                "categories": ["Press"],
+                "tags": ["Mobile App Trends", "Strategy"],
+                "image_url": "https://images.pexels.com/photos/2104152/pexels-photo-2104152.jpeg"
+            },
+            {
+                "id": 4,
+                "title": "Highlights from WWDC 2024",
+                "author_id": 2,
+                "date": "2024-06-10",
+                "content": "An overview of the major announcements and innovations presented at WWDC 2024.",
+                "categories": ["Event"],
+                "tags": ["WWDC", "People"],
+                "image_url": "https://images.pexels.com/photos/2104152/pexels-photo-2104152.jpeg"
+            },
+            {
+                "id": 5,
+                "title": "The Role of VR in Education",
+                "author_id": 1,
+                "date": "2024-05-25",
+                "content": "Exploring how virtual reality is transforming educational experiences.",
+                "categories": ["Webinar"],
+                "tags": ["VR", "Innovation"],
+                "image_url": "https://images.pexels.com/photos/397857/pexels-photo-397857.jpeg"
+            },
+            {
+                "id": 6,
+                "title": "AR and the Future of Retail",
+                "author_id": 2,
+                "date": "2024-05-10",
+                "content": "Augmented reality is redefining how consumers interact with retail brands.",
+                "categories": ["Video"],
+                "tags": ["AR", "Strategy"],
+                "image_url": "https://images.pexels.com/photos/3525682/pexels-photo-3525682.jpeg"
+            },
+            {
+                "id": 7,
+                "title": "Celebrating Tech Industry Awards",
+                "author_id": 1,
+                "date": "2024-04-30",
+                "content": "A look at the winners and innovations recognized in the latest tech awards.",
+                "categories": ["Press"],
+                "tags": ["Awards", "People"],
+                "image_url": "https://images.pexels.com/photos/1033729/pexels-photo-1033729.jpeg"
+            },
+            {
+                "id": 8,
+                "title": "Crafting a Winning Tech Strategy",
+                "author_id": 2,
+                "date": "2024-04-15",
+                "content": "Key elements of successful technology strategies in today's fast-paced world.",
+                "categories": ["White Paper"],
+                "tags": ["Strategy", "Innovation"],
+                "image_url": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg"
+            },
+            {
+                "id": 9,
+                "title": "People Behind the Innovations",
+                "author_id": 1,
+                "date": "2024-03-30",
+                "content": "Stories of individuals driving change and creating cutting-edge technologies.",
+                "categories": ["Blog Post"],
+                "tags": ["People", "Innovation"],
+                "image_url": "https://images.pexels.com/photos/1526718/pexels-photo-1526718.jpeg"
+            }
+        ],
+        "authors": [
+            {
+                "id": 1,
+                "name": "Alex Johnson",
+                "email": "alex.johnson@framna.com",
+                "bio": "Alex is a tech enthusiast and AI expert with over 10 years of experience in the industry."
+            },
+            {
+                "id": 2,
+                "name": "Emily Brown",
+                "email": "emily.brown@framna.com",
+                "bio": "Emily is a quantum computing researcher and writer who loves making complex topics accessible."
+            }
+        ],
+        "categories": [
+            "Press",
+            "Event",
+            "Webinar",
+            "Video",
+            "White Paper",
+            "Blog Post"
+        ],
+        "tags": [
+            "Mobile App Trends",
+            "WWDC",
+            "VR",
+            "AR",
+            "Awards",
+            "Strategy",
+            "People"
+        ]
+    }
+}
