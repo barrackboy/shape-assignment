@@ -244,6 +244,7 @@ header img{
     .toggle-wrapper-header {
         display: flex;
         flex-direction: column;
+        gap: 20px;
         align-items: flex-start;
     }
 }
