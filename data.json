@@ -42,7 +42,7 @@
                 "content": "An overview of the major announcements and innovations presented at WWDC 2024.",
                 "categories": ["Event"],
                 "tags": ["WWDC", "People"],
-                "image_url": "https://images.pexels.com/photos/2104152/pexels-photo-2104152.jpeg"
+                "image_url": "https://cdn.pixabay.com/photo/2019/06/02/17/27/summer-4246927_960_720.jpg"
             },
             {
                 "id": 5,
@@ -93,6 +93,16 @@
                 "categories": ["Blog Post"],
                 "tags": ["People", "Innovation"],
                 "image_url": "https://images.pexels.com/photos/1526718/pexels-photo-1526718.jpeg"
+            },
+            {
+                "id": 10,
+                "title": "The delicate Amazon",
+                "author_id": 1,
+                "date": "2024-03-10",
+                "content": "A deep dive into some of the beauties of the Amzon and how they are thriving.",
+                "categories": ["Video"],
+                "tags": ["People", "Awards"],
+                "image_url": "https://cdn.pixabay.com/photo/2024/07/29/02/28/snake-8928741_960_720.jpg"
             }
         ],
         "authors": [
