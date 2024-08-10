@@ -39,8 +39,7 @@ To run this demo locally:
 ## Future Enhancements
 
 - **Linking Articles**: Future iterations could include wrapping indexed elements in anchor tags, linking them to individual post pages.
-- **HubSpot Integration**: Further development could involve integrating this demo directly into a HubSpot environment, using HUBL to fetch and manage real-time data.
-
+- **HubSpot Integration**: Further development could involve integrating this demo directly into a HubSpot environment, using HUBL to fetch and manage real-time data. Lazy loading for images can also be facilitated by HUBL.
 
 
 
