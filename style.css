@@ -247,6 +247,9 @@ header img{
         gap: 20px;
         align-items: flex-start;
     }
+    .options {
+        gap: 10px;
+    }
 }
 .entry-header h1{
     font-size: 80px;
