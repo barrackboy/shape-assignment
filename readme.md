@@ -34,7 +34,7 @@ You can view the application on your local machine via localhost, or you can tes
 
 To run this demo locally:
 
-1. Open `index.html` in your browser to view the demo.
+1. Using a http server, open `index.html` in your browser to view the demo.
 
 ## Future Enhancements
 
