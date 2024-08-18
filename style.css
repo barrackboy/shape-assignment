@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@font-face {
+/* @font-face {
     font-family: 'FramnaSerif';
     src: url('https://framna.com/hubfs/FramnaSerif-Medium.ttf') format('truetype');
     font-weight: 500; 
@@ -11,12 +11,133 @@
     src: url('https://framna.com/hubfs/FramnaSansBETA08-Regular.ttf') format('truetype');
     font-weight: 400; 
     font-style: normal; 
+} */
+
+
+
+
+
+@font-face {
+    font-family: 'FramnaSerif';
+    src: url('fonts/FramnaSerif-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FramnaSerif';
+    src: url('fonts/FramnaSerif-Extrabold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FramnaSerif';
+    src: url('fonts/FramnaSerif-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FramnaSerif';
+    src: url('fonts/FramnaSerif-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FramnaSerif';
+    src: url('fonts/FramnaSerif-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FramnaSerif';
+    src: url('fonts/FramnaSerif-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FramnaSerif';
+    src: url('fonts/FramnaSerif-Thin.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
 }
 
+
+
+
+@font-face {
+    font-family: 'FramnaSansBETA10';
+    src: url('fonts/FramnaSansBETA10-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FramnaSansBETA10';
+    src: url('fonts/FramnaSansBETA10-Extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FramnaSansBETA10';
+    src: url('fonts/FramnaSansBETA10-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FramnaSansBETA10';
+    src: url('/fonts/FramnaSansBETA10-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FramnaSansBETA10';
+    src: url('fonts/FramnaSansBETA10-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FramnaSansBETA10';
+    src: url('fonts/FramnaSansBETA10-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FramnaSansBETA10';
+    src: url('fonts/FramnaSansBETA10-Thin.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+
+
+
+
+h1 {
+     font-family: 'FramnaSansBETA10';
+     font-weight: 900;
+}
+h2 {
+     font-family: 'FramnaSansBETA10';
+     font-weight: 500;
+     font-size: 2em;
+}
+h3 {
+     font-family: 'FramnaSansBETA10';
+     font-weight: 500;
+}
+
+
+
 body {
-    font-family:FramnaSerifBody, Poppins, sans-serif;
+    font-family:'FramnaSansBETA10', Poppins, sans-serif;
     margin: 0;
     padding: 0;
+    
+    
+}
+p{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 header {
@@ -196,11 +317,13 @@ header img{
     }
     
 }
-.post{
+.post, .thumb-content-wrapper{
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
+
+
 .post img{
     border-radius: 32px;
 }
@@ -208,13 +331,15 @@ header img{
     margin: 0;
     padding: 0;
 }
-
-.post h2{
+.thumb-content-wrapper{
+    padding: 0 20px ;
+}
+/* .post h2{
     font-weight: 700;
-}
-.post p{
+} */
+/* .post p{
     font-weight: 300;
-}
+} */
 .tags-category-wrapper{
     display: flex;
     gap: 10px;
@@ -232,7 +357,7 @@ header img{
     background-color: #fff;
     color: #000;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
 }
 .toggle-wrapper-header {
@@ -240,6 +365,7 @@ header img{
     justify-content: space-between;
     padding-bottom: 50px;
 }
+
 @media (max-width: 768px) {
     .toggle-wrapper-header {
         display: flex;
@@ -256,5 +382,7 @@ header img{
     font-size: clamp(80px, 10vw + 20px, 200px);
     margin: 0;
     font-family: 'FramnaSerif', 'Poppins', serif;
+    font-weight: 500;
+    letter-spacing: -0.02em;
     line-height: 91%;
 }

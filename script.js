@@ -222,6 +222,7 @@ function loadMoreFilteredPosts(blog) {
             <span>${post.categories}</span>
             <img src="${post.image_url}" alt="${post.title}">
             </div>
+            <div class="thumb-content-wrapper">
             <h2>${post.title}</h2>
          
             <p>${post.content.length > 200 ? post.content.substring(0, 200) + '...' : post.content.substring(0, 200)}</p>
@@ -232,6 +233,8 @@ function loadMoreFilteredPosts(blog) {
                 ${post.tags.map(tag => `<a href="#" class="tag-pill-body">${tag}</a>`).join('')}
             </div>
             </div>
+             </div>
+            
            <!-- <p class="author">by ${author.name} on ${post.date}</p> -->
         `;
 
