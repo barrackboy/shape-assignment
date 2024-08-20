@@ -131,8 +131,8 @@ body {
     font-family:'FramnaSansBETA10', Poppins, sans-serif;
     margin: 0;
     padding: 0;
-    
-    
+    -webkit-font-smoothing: antialiased; /* For WebKit browsers */
+    -moz-osx-font-smoothing: grayscale;   /* For Firefox on macOS */    
 }
 p{
     font-size: 1em;
